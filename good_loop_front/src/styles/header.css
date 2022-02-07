@@ -1,0 +1,50 @@
+.header_img {
+  width: 200px;
+}
+
+.line {
+  background: linear-gradient(white, #b5c9fd);
+  padding-bottom: 1.5em;
+}
+
+header p {
+  font-family: 'made_dillanregular';
+  font-size: x-large;
+  text-align: center;
+}
+
+header li {
+  font-family: 'made_dillanregular';
+  font-size: medium;
+}
+
+/*animation area */
+.Headercircle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.Headercircle.blue {
+  background-color: #3d74e4;
+  margin-top:10px;
+  z-index: -1;
+}
+
+.Headercircle.green {
+  background-color: #75fd5d;
+
+  z-index: -1;
+}
+.Headercircle.yellow {
+  background-color: #ffff00;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .header_img {
+    width: 100px;
+  }
+}
